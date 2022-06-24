@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="gym, gimnasio, entrenamiento, deporte, productos deportivos">
+    <title>Asesorías</title>
+    <!--Link bootstrap-->
+    <meta name="description"
+        content="Página Web del gimnasio Homer's Gym. Asesórate con los expertos en entrenamiento deportivo">
+    <!--descripcion pagina SEO-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!--link css-->
+    <link rel="stylesheet" href="../styles/estilos.css">
+    <link rel="icon" type="image/x-icon" href="../images/logos/logo.png">
+</head>
+
+<body>
+    <div id="grilla3">
+        <header>
+            <nav id="nav1" class="encabezado">
+                <div id="transicionLogo">
+                    <img src="../images/logos/logo.png" alt="logo" width="100px" height="100px">
+                </div>
+
+                <ul class="menuP">
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                </ul>
+            </nav>
+
+
+            <!--inicio  navbar-->
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="asesorias.html">Asesorías</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="rutinas.html">Rutinas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="productos.html">Productos</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="entrenamiento.html" id="navbarDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Entrenamiento
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="individual.html">Individual</a></li>
+                                    <li><a class="dropdown-item" href="pareja.html">Pareja</a></li>
+                                    <li><a class="dropdown-item" href="grupal.html">Grupal</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!--fin navbar-->
+
+
+
+
+            <!--<div class="border imgPrincipal2">
+                <img src="../images/principal.jpg" alt="entrenadores" width="100%">
+            </div>-->
+        </header>
+
+        <section class="bloqueFotos">
+            <img src="../images/asesoria/entrenamiento1.jpg" alt="1">
+            <img src="../images/asesoria/entenamiento2.jpg" alt="2">
+            <img src="../images/asesoria/entenamiento3.jpg" alt="3">
+            <img src="../images/asesoria/entrenamiento4.jpg" alt="4">
+            <img src="../images/asesoria/entenamiento5.jpg" alt="5">
+            <img src="../images/asesoria/entenamiento6.jpg" alt="6">
+            <img src="../images/asesoria/entrenamiento7.jpg" alt="7">
+            <img src="../images/asesoria/entenamiento8.jpg" alt="8">
+            <img src="../images/asesoria/trainer.jpg" alt="9">
+        </section>
+
+        <div class="informacion">
+            <p>Siempre puedes contar con los entrenadores profesionales de <strong>Homer's Gym</strong>, quienes están
+                prestos a asesorarte en todo lo que necesites. Por favor llena el siguiente formulario que nos ayudará a
+                conocerte un poco mejor, de tal manera que podemos darte una rutina más personalizada</p>
+        </div>
+
+        <section class="fondoGris formulario fondoGrisF">
+            <form class="row g-3">
+                <div class="col-6">
+                    <label for="inputName" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="nombres">
+                </div>
+                <div class="col-6">
+                    <label for="inputLastname" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="apellidos">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Correo electrónico</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-6">
+                    <label for="inputAddress" class="form-label">Dirección residencia</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="direccion">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">Ciudad</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-6">
+                    <label for="inputState" class="form-label">CAP</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>Tunja</option>
+                        <option>Cali</option>
+                        <option>Medellín</option>
+                        <option>Bogotá</option>
+                        <option>Bucaramanga</option>
+                        <option>Cartagena</option>
+                    </select>
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                            Check me out
+                        </label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </form>
+
+        </section>
+
+        <footer class="piePagina">
+            <span>Creado por Andrea Cruz Yomayusa - Derechos reservados - Colombia</span>
+        </footer>
+
+        <!--Script js-->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+            integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+            integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
